@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>view detail</title>
+</head>
+<body>
+    <h1>view details @<%=post.username%></h1>
+    <div class="box">
+        <h2 class="id">ID:<%=post.id %>
+        </h2>
+        <h4 class="username"> USERNAME:<%=post.username%>
+        </h4>
+        <h4 class="content"> CONTENT:<%=post.content%>
+        </h4> 
+    <a href="https://en.wikipedia.org/wiki/<%=post.bio%>">too see biography</a>
+    </div>
+</body>
+</html>
